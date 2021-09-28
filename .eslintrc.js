@@ -31,6 +31,6 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": "off",
     "no-unused-vars": "off",
     'no-debugger': 'warn', // instead of default error
-    'indent': ['warn', 2] // instead of default 4
+    'indent': 'off'
   }
 };
