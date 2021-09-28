@@ -1,12 +1,16 @@
 import React, { ReactElement } from 'react';
+import { InputValueProvider } from '../context/InputValueContext';
 import { Header } from "./Header"
 import { Menu } from './Menu'
+
 import { Divider } from "./Divider"
 import FormHandler from './formHandler'
+
 
 export default function App(): ReactElement {
 
   return (
+
     <div>
       <Menu />
       <div className="ui container">
@@ -16,6 +20,9 @@ export default function App(): ReactElement {
       </div>
       Just check
     </div>
+
+
+
 
   )
 }
